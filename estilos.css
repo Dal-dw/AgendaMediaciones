@@ -1,0 +1,152 @@
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #bcc5d4;
+}
+body::webkit-scrollbar-thumb {
+  background-color: rgb(56, 11, 218);
+  border-radius: 5px;
+}
+body::webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+body::-webkit-scrollbar-thumb {
+  background: #00348e93;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #00358e;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+body::-webkit-scrollbar:hover {
+  width: 8px;
+  height: 8px;
+}
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: #b6b6c9;
+}
+
+.scroll2::-webkit-scrollbar {
+  width: 3px;
+  height: 6px;
+  background: #ffffff00;
+}
+.scroll2::webkit-scrollbar-thumb {
+  background-color: rgb(56, 11, 218);
+  border-radius: 8px;
+}
+.scroll2::webkit-scrollbar-track {
+  background: #00358e;
+}
+.scroll2::-webkit-scrollbar-thumb {
+  background: #00348e77;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.scroll2::-webkit-scrollbar-track:hover {
+  height: 8px;
+}
+
+.scroll2::-webkit-scrollbar-thumb:active {
+  background-color: #0f1d97;
+}
+.scroll2::-webkit-scrollbar-thumb:hover {
+  background-color: #0f1d97;
+  height: 8px;
+}
+.scroll2 {
+  height: 3px;
+}
+.scroll2 {
+  overflow: auto;
+  white-space: nowrap;
+}
+.disabled {
+  cursor: not-allowed;
+}
+#chat {
+  width: 60%;
+}
+#mensajesChat {
+  background-image: url(./imagenes/fondoChat.jpg);
+  min-height: 50vh;
+  max-height: 50vh;
+  overflow: scroll;
+  box-shadow: 1px 1px 8px rgb(12, 2, 2);
+}
+
+#mensajesChat::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #bcc5d4;
+}
+#mensajesChat::webkit-scrollbar-thumb {
+  background-color: rgb(56, 11, 218);
+  border-radius: 5px;
+}
+#mensajesChat::webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+#mensajesChat::-webkit-scrollbar-thumb {
+  background: #00348e93;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+#mensajesChat::-webkit-scrollbar-thumb:hover {
+  background: #00358e;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+#mensajesChat::-webkit-scrollbar:hover {
+  width: 8px;
+  height: 8px;
+}
+#mensajesChat::-webkit-scrollbar-track:hover,
+#mensajesChat::-webkit-scrollbar-track:active {
+  background: #b6b6c9;
+}
+
+.mensajes {
+  width: 95%;
+  background-color: rgba(156, 20, 20, 0);
+}
+
+.mensajeUsuario {
+  max-width: 45%;
+
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(75, 231, 88, 0.363);
+}
+.mensajeOtros {
+  max-width: 45%;
+
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 0px;
+  box-shadow: -5px 5px 15px rgba(98, 75, 231, 0.425);
+}
+.borrar {
+  background-image: url("./imagenes/trash.png");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 70%;
+
+  background-position: center;
+}
+.editar {
+  background-image: url("./imagenes/pen.png");
+  background-repeat: no-repeat;
+  width: 30px;
+
+  height: 30px;
+  background-size: 60%;
+  background-position: center;
+}
