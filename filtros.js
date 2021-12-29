@@ -4,7 +4,7 @@ const g1 = "Ceci";
 const g2 = "Dardo";
 const g3 = "Victor";
 const g4 = "Carla";
-const g5 = "Sole";
+const g5 = "Gaby";
 
 var gestionadores = [g1, g2, g3, g4, g5];
 

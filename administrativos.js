@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBP_RMHpkE44H3DQ-ElgrDptTCnQwG_fNo",
-  authDomain: "mediaciones-7e072.firebaseapp.com",
-  projectId: "mediaciones-7e072",
-  storageBucket: "mediaciones-7e072.appspot.com",
-  messagingSenderId: "37148697267",
-  appId: "1:37148697267:web:056e842f9c2e1438f1c6c6",
+  apiKey: "AIzaSyAiRWsABbllrEHT40Kr89PMJbMMaVj1zlk",
+  authDomain: "mediacionesgithub.firebaseapp.com",
+  projectId: "mediacionesgithub",
+  storageBucket: "mediacionesgithub.appspot.com",
+  messagingSenderId: "942480853620",
+  appId: "1:942480853620:web:024c4797e96f2f49079f21",
 };
 
 /* var firebaseConfig = {
